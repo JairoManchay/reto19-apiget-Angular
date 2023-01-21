@@ -1,0 +1,20 @@
+    <article class="col mt-3 py-2">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>User_ID</th>
+            <th>ID</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of arraDatos">
+            <td>{{item.userId}}</td>
+            <td>{{item.id}}</td>
+            <td>{{item.title}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+
